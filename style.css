@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    background-color: #363F4D;
+    justify-content: space-between;
+    padding: 16px 100px;
+    align-items: center;
+}
+
+.header-left{
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+}
+
+.header-left .phone,.email{
+    display: flex;
+    column-gap: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.header-left .phone:hover span {
+    color: red;
+    transition: 0.4s;
+
+}
+
+.header-left .phone:hover p {
+    color: red;
+    transition: 0.4s;
+
+}
+
+
+
+.header-left .email:hover span {
+    color: red;
+    transition: 0.4s;
+
+}
+
+.header-left .email:hover p {
+    color: red;
+    transition: 0.4s;
+
+}
+
+
+.header-left .phone{
+    border-right: 2px solid white;
+    padding-right: 10px;
+}
+
+.header-left span,p{
+    color: white;
+    font-size: 14px;
+}
+
+li a{
+    color: white;
+}
+
+li a:hover{
+    color: red;
+    transition: 0.5s;
+}
+
+li{
+    border-right: 2px solid white;
+    padding-right: 20px;
+}
+
+li:last-child{
+    border: none;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+
+.sub-header{
+    display: flex;
+    padding: 10px 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-child img{
+    width: 190px;
+}
+
+.second-child{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.second-child input{
+    width: 350px;
+    padding: 15px 20px;
+    /* border: 1px solid rgba(0, 0, 0, 0.3); */
+    outline: none;
+    border: none;
+}
+
+.second-child button{
+    padding:15px 26px;
+    outline: none;
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.third-child i{
+    font-size: 34px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.third-child span{
+    font-size: 17px;
+    font-weight: 600;
+    position: relative;
+}
+
+.third-child{
+    position: relative;
+}
+
+.third-child .count{
+    content: "";
+    position: absolute;
+    left: 20px;
+    top:-10px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    z-index: 1;
+    border-radius: 50%;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    cursor: pointer;
+}
+
+hr{
+    color: rgba(255, 255, 255, 0.3);
+}
+
+nav{
+    padding: 20px 200px;
+}
+
+ul{
+    display: flex;
+    column-gap: 50px;
+}
+
+ul a{
+    color: black;
+    font-weight: 600;
+}
+
+a:first-child{
+    color: red;
+}
